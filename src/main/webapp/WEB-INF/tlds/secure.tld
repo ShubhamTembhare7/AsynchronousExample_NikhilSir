@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://Java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>secure</short-name>
+  <uri>/WEB-INF/tlds/secure</uri>
+<tag>
+
+	<name>getdate</name>
+	<tag-class>com.shubham.tags.DateTagMaster</tag-class>
+
+</tag>
+	
+	<tag>
+	<name>cube</name>
+	<tag-class>com.shubham.tags.CubeMaster</tag-class>
+	<attribute>
+	<name>number</name>
+	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+	
+	</attribute>
+	
+	</tag>
+</taglib>
